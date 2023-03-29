@@ -1,0 +1,120 @@
+html,
+body{
+    background: white;
+    height: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.caja-madre {
+    align-items: center;
+    border-radius: 1rem;
+    border: .3rem solid black;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    transform: translate(35rem,8rem);
+    height: 38rem;
+    width: 38rem;
+}
+
+.caja-madre .sup-izq{
+    position: absolute;
+    transform: translate(0.5rem,-13rem);
+    background-color: transparent;
+    height: 10rem;
+    width: 10rem;
+    border:.2rem solid black ;
+
+}
+
+.caja-madre .sup-cen {
+    position: absolute;
+    transform: translate(12rem,-1rem);
+    background-color: transparent;
+    height: 10rem;
+    width: 10rem;
+    border:.2rem solid black ;
+
+}
+
+.caja-madre .sup-der {
+    position: absolute;
+    transform: translate(24rem,-14.5rem);
+    background-color: transparent;
+    height: 10rem;
+    width: 10rem;
+    border:.2rem solid black ;
+
+}
+
+.caja-madre .med-izq {
+    position: absolute;
+    transform: translate(0.5rem,-3.5rem);
+    background-color: transparent;
+    height: 10rem;
+    width: 10rem;
+    border:.2rem solid black ;
+
+}
+
+.caja-madre .med{
+    position: absolute;
+    transform: translate(12.15rem,-1.848rem);
+    background-color: transparent;
+    height: 11.99rem;
+    width: 14.85rem;
+    border:.2rem solid black ;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+.caja-madre .med-der{
+    position: absolute;
+    transform: translate(27rem,-1.848rem);
+    background-color: transparent;
+    height: 11.99rem;
+    width: 13rem;
+    border:.2rem solid black ;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+.caja-madre .bt-izq{
+    position: absolute;
+    transform: translate(-0.003rem, 10.2rem);
+    background-color: transparent;
+    height: 11.94rem;
+    width: 12rem;
+    border:.2rem solid black ;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+}
+
+.caja-madre .bt-cen{
+    position: absolute;
+    transform: translate(14.95rem, 10.2rem);
+    background-color: transparent;
+    height: 11.94rem;
+    width: 12rem;
+    border:.2rem solid black ;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+}
+
+.caja-madre .bt-der{
+    position: absolute;
+    transform: translate(28rem, 10.2rem);
+    background-color: transparent;
+    height: 11.94rem;
+    width: 12rem;
+    border:.2rem solid black ;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
